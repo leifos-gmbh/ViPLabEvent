@@ -47,7 +47,7 @@ class ilViPLabEventPlugin extends ilEventHookPlugin
 	 */
 	public function handleEvent($a_component, $a_event, $a_parameter)
 	{
-		ilLoggerFactory::getLogger('viplabevent')->debug('New event: '. $a_event.' from component: ' .$a_component.': '.print_r($a_parameter,true));
+		ilLoggerFactory::getLogger('viplabevent')->debug('New event: '. $a_event.' from component: ' .$a_component);
 		
 		if($a_component == 'Services/WebServices/ECS' and $a_event == 'newEcsEvent')
 		{
