@@ -1,5 +1,4 @@
 <?php
-
 // alphanumerical ID of the plugin; never change this
 $id = "viplabevent";
 // code version; must be changed for all code changes
